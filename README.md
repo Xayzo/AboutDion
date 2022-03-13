@@ -20,4 +20,4 @@ Click start if you want to fork :)
 
 <h3 align="center"> 🚀 Heroku Deployment</h3>
 
-<a href="https://heroku.com/deploy?template=https://github.com/UserKontol/Man-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue.svg?style=for-the-badge&logo="></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Xayzo/AboutDion"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue.svg?style=for-the-badge&logo="></a>
