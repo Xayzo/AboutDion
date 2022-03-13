@@ -1,0 +1,23 @@
+{
+	"name": "AboutDion",
+	"description": "A TelegramBot to see Dion's profile!",
+	"logo": "https://telegra.ph/file/6835848d5d7625ea9f565.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Xayzo/AboutDion",
+	"env": {
+		"TOKEN": {
+			"description": "Your Telegram Bot Token ( @BotFather )",
+			"value": ""
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
