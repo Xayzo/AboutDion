@@ -1,4 +1,4 @@
-from telethon import events, TelegramClient, Button
+from telethon import events, TelegramClient
 import logging
 from telegram.ext import CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
@@ -23,9 +23,12 @@ async def stsrt(event):
     await event.reply(
             "**Heya, You can view Dion's profile by click the button below!**",
             buttons=[
-                [Button.switch_inline("Go Inline", query="")]
-                ]
-            )
+                   [
+                       InlineKeyboardButton(text="Click Here", callback_data="dion_"
+                       ),
+                   ],
+               ]
+
 
 
 def dion_about_callback(update, context):
